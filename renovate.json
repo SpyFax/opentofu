@@ -4,7 +4,7 @@
     {
       "customType": "regex",
       "fileMatch": ["^\\.github/workflows/.*\\.ya?ml$"],
-      "matchStrings": ["VERSION: (?<currentValue>\\d+\\.\\d+)"],
+      "matchStrings": ["VERSION: (?<currentValue>\\d+\\.\\d+\\.\\d+)"],
       "depNameTemplate": "opentofu/opentofu",
       "datasourceTemplate": "github-releases",
       "extractVersionTemplate": "^v(?<version>.*)$"
